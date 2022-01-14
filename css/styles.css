@@ -1,0 +1,209 @@
+body
+{
+  font-family: "Merriweather";
+  text-align: center;
+}
+h1,h2,h3
+{
+  font-family: "Merriweather";
+}
+
+p
+{
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading
+{
+  font-family: "Merriweather";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Containers */
+
+.container-fluid 
+{
+  padding: 7% 15%;
+}
+  
+/* Sections */
+
+.colored-section
+{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section
+{
+  background-color: #fff;
+}
+/* Navigation Bar */
+
+.navbar-brand
+{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar
+{
+  padding:0 0 4.5rem; /* It keeps 0 padding on top and left and right. Keeps 4.5 on bottom */
+}
+.nav-item
+{
+  padding: 0 18px; /* keeps padding 0 for top and bottom and adds 18px for left and right*/
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: 'Merriweather-Light';
+}
+
+
+/* Download Button */
+
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image
+{
+  width: 60%;
+  transform: rotate(25deg); /* Image is rotated with this code */
+  position: absolute;
+  right: 30%;
+
+}
+
+/* Title section */
+
+
+#title.container-fluid  /* container fluid inside the title section */
+{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Features Section */
+#features
+{
+  padding: 7% 15%; /* 7% top and bottom and 15 % on left and right*/
+  position: relative;
+  z-index: 1;
+}
+.feature-title
+{
+  font-size: 1.5rem;
+}
+.feature-box
+{
+  padding: 5%;
+}
+
+/* icons */
+.icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials
+{
+  
+  background-color: #ef8172;
+}
+.testimonial-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press
+{
+  background-color:#ef8172 ;
+  padding-bottom: 3%;
+}
+
+.press-logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.price-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Pricing Section */
+
+#pricing
+{
+  padding: 100px;
+}
+
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+
+
+
+/* Footer section */
+#footer
+{
+  padding: 7% 15%;
+}
+.social-icon 
+{
+  padding: 20px 10px;
+}
+
+ /* Media query below */
+@media (max-width: 1028px) /* If the screen size is 1028 px or less then the code included in the curly brackets will be executed*/
+{
+  #title
+  {
+    text-align: center;
+  }
+  .title-image
+  {
+    position: static; /* The lower part of image won't be cutoff by features section */
+    transform: rotate(0); /* Rotate image back to zero i.e straight up */
+  }
+}
+
+
+
+
